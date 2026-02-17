@@ -3,13 +3,20 @@ import Form from "./components/Form";
 import Form2 from "./components/Form2";
 import FocusInput from "./components/FocusInput";
 import Click from "./components/Click";
+import Box from "./components/Box";
 
 function App() {
   return <>
-  <Form></Form>
-  <Form2></Form2>
-  <FocusInput></FocusInput>
+  <Box>
+    <Form></Form>
+  </Box>
+  <Box>
+    <Form2></Form2>
+  </Box>
+  <Box>
+    <FocusInput></FocusInput>
   <Click></Click>
+  </Box>
   </>;
 }
 
